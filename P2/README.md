@@ -16,7 +16,7 @@ docker run --mount type=bind,source="$(pwd)"/,target=/srv  -it realiser-app-dist
 > python3 process.py
 ```
 
-### Éxécuter un script au démarrage d'un cluster EMR
+# Help: Éxécuter un script au démarrage d'un cluster EMR
 
 1. Créer un script shell (`emr-init-script.sh` présent dans ce repo). 
 
